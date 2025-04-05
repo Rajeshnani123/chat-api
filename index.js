@@ -8,7 +8,7 @@ import { Message } from "./models/message.js";
 import crypto from "crypto";
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = 10000;
 
 app.use(bodyParser.json());
 app.use(cors());
